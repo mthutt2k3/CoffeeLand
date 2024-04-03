@@ -1,0 +1,108 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 2, 2024, 11:13:51 AM
+    Author     : dell
+*/
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    margin-left: 330px;
+    margin-top: 20px
+}
+
+.menu a{
+    text-decoration: none;
+    color: #3d3d3d;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block; /* Đảm bảo liên kết chiếm toàn bộ chiều rộng của phần tử cha */
+    text-align: center; /* Căn giữa nội dung liên kết */
+    margin-top: 10px;
+    margin-bottom: 5px
+}
+.menu img{
+    width: 120px;
+    height: 100px;
+    display: block; /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của phần tử */
+    margin: 0 auto;
+}
+.category-item{
+    position: relative;
+    margin-right: 100px;
+    background-color: #c9f29b ;
+    border: solid 1px #b2de27  ;
+    border-radius: 5px
+}
+.newPri{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+.newPri img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+.hot-banner {
+    display: inline-block;
+    position: relative;
+}
+
+.hot-text {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width:50px;
+    border-radius: 10px;
+    padding: 5px 10px; /* Điều chỉnh kích thước của dải băng */
+    transform: rotate(-45deg); /* Xoay dải băng */
+    transform-origin: top left; /* Đặt điểm gốc xoay */
+}
+.orderNews{
+    margin-left: 100px;
+    margin-top: 100px
+}
+.orderNews-content{
+    display: flex;
+    margin-bottom: 20px
+}
+.orderNews-item{
+    display: flex;
+}
+.content{
+    display: flex;
+    margin-top: 50px
+}
+.orderNews-content p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 400px;
+    color: #34495e
+}
+.orderNews-item{
+    margin-bottom: 50px
+}
+.orderNews-item img{
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    margin-right: 100px
+}
+.orderNews-item1 p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    color:#2c3e50
+}
+.orderNews-item1 p:last-child{
+    font-size: 13px;
+    
+}
+

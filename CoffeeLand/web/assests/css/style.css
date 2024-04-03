@@ -1,0 +1,206 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 18, 2024, 12:22:53 PM
+    Author     : acer
+*/
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.search-form{
+    color: #555;
+    margin-right: 200px;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 50px;
+}
+.search-input{
+    font-size: 14px;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: inhefrit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+.search-input::placeholder {
+    color: #bbb;
+}
+
+.search-button{
+    text-indent: -999px;
+    overflow: hidden;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0px transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z' fill='white' %3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.search-button:hover {
+    opacity: 1;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+}
+
+.nav-link{
+    display: block;
+    width: fit-content;
+    transition: .1s;
+}
+
+.nav-link:hover{
+    background-color: #0E2954!important;
+}
+
+#home {
+    background: url(assests/images/background/MainPage.png) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+    font-family: monospace;
+    color: aqua;
+}
+.landing-text h3 {
+    font-size: 200%;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+}
+
+.login-button{
+    text-align: center;
+    color: rgb(203, 214, 215);
+    border: none;
+    outline: none;
+    width: 90px;
+    height: auto;
+    border:solid 1px;
+    border-radius: 10px;
+    transition: .2s;
+}
+.login-button:hover{
+    background: #4431cf;
+    color: #fff;
+}
+
+.nav-item-1{
+    margin-right: 50px;
+}
+
+
+.wrapper{
+    background: #363636;
+    padding: 0 20px 0 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    padding: auto;
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        position: relative;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+}
+.row{
+    width:  1200px;
+    height: 700px;
+    border-radius: 10px;
+    padding: 0px;
+    color: #fff;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.img-cover{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.text-box{
+    width: 330px;
+    color: #fff;
+}
+
+.text-box header{
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+    color: #fff;
+}
+.button-link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    padding:10px 30px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background: #38e9ef;
+    border-radius: 5px;
+    transition: .4s;
+}
+.button-link:hover{
+    background: #4431cf;
+    color: #fff;
+ }
+ 
+ .countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}

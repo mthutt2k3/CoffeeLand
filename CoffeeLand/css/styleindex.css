@@ -1,0 +1,172 @@
+.footer{
+    background-color: #0EC0C3;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+.hcontent{
+    color: #0EC0C3;
+    font-style: italic;
+    font-size: 10px;
+    /* font-weight: bold; */
+    margin-top: 2%;
+    text-align: center;
+}
+.logo{
+    margin: 0 auto;
+    padding: 5px;
+    width: 30%;
+    padding-left: 100px;
+}
+.logo img{
+    margin: auto;
+    width: 200px;
+    height: 150px;
+}
+.search{
+    margin-top: 5%;
+}
+.title{
+    color: #0EC0C3;
+}
+.banner img{
+    height: 300px;
+    float: left;
+    margin-top:23px ;
+}
+.content2{
+    padding: 0px 10px;
+}
+.button{
+    background-color: #F07317;
+    color: aliceblue;
+}
+.center{
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+.image img{
+    height: 350px;
+    width: 350px;
+    margin-left: 0px;
+    padding: 10px;
+}
+.dongvan{
+    margin-left: 0 ;
+    padding-left: 0;
+}
+.flex{
+    display: flex;
+    width: 1300px;
+    align-items: center;
+}
+.flex1{
+    padding - right : 10px;
+}
+.flex1 img{
+    width: 350px;
+    height: 350px;
+    margin-left: 0px;
+    padding: 10px;
+}
+.flex2{
+    margin: 0px 30px;
+    flex-grow: 1;
+}
+.flex2 h2{
+    color: green;
+}
+.flex2 p{
+    text-align: justify;
+}
+.flex3{
+    text-align: center;
+    width: 700px;
+}
+.flex3 h4{
+    color: #EF9E63;
+}
+.flex3 p{
+    background-color: #0EC0C3;
+    color: aliceblue;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    display: block;
+    text-align: 8;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:768px){
+    .hflex{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        align-items: center;
+        padding-right: 300px;
+    }
+    .logo img{
+        float: left;
+    }
+    .search{
+        margin-top: 0%;
+    }
+    .menu{
+        display: flex;
+        justify-content: end;
+    }
+    .banner{
+        display: block;
+        
+    }
+    .banner img{
+        height: 300px;
+        margin:auto;
+        margin-top: 0%;
+        margin-bottom: 10px ;
+
+    }
+    .content2{
+        clear: both;
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .image img{
+        height: 350px;
+        width: 500px;
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .dongvan{
+        margin-left: 0 ;
+        padding-left: 0;
+    }
+    .flex{
+        display: flex;
+        width: 540px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex1 img{
+        width: 500px;
+        height: 350px;
+    }
+    .flex2{
+        clear: both;
+        padding: 0;
+    }
+    .flex3{
+        padding-bottom: 20px; ;
+    }
+}

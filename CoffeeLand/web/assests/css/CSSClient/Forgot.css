@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 4, 2024, 10:22:35 AM
+    Author     : dell
+*/
+.forgot-items{
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.title{
+    margin-left: 140px;
+    margin-bottom: 20px;
+    color:#009432;
+    font-weight: bold;
+    font-size: 20px
+}
+.form-forgot input::placeholder{
+    font-size: 15px
+}
+.form-forgot input[type="email"]{
+    margin-left: 20px;
+    width: 290px;
+    padding: 3px;
+    border-radius: 10px;
+    border: solid 0.5px #A3CB38;
+}
+.form-forgot input[type="submit"]{
+    margin-left: 150px;
+    background-color: #c9f29b;
+    border-radius: 10px;
+    border: solid 0.5px #A3CB38;
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 30px
+}
+.form-forgot p{
+    color: #2f3640;
+    
+}

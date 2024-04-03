@@ -1,0 +1,67 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 4, 2024, 11:53:07 AM
+    Author     : dell
+*/
+.slider-content {
+    margin-top: 20px;
+    margin-left: 180px
+}
+
+.slider-content table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.slider-content th, .slider-content td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color:yellow;
+}
+
+.slider-content th {
+    background-color: #f2f2f2;
+    color: black
+}
+
+.slider-content img {
+    max-width: 100px;
+    height: auto;
+}
+table form input[type="submit"]{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 1px #fed330;
+}
+table img{
+    border-radius: 10px;
+    border: solid 1px #4b6584;
+}
+
+select{
+    border-radius: 10px;
+    padding: 5px;
+}
+.addslider{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 1px #fed330;
+    background-color: red;
+    
+    margin-left: 180px;
+    margin-top: 20px;
+    width: 150px
+}
+.addslider a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+

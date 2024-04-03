@@ -1,0 +1,94 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 8, 2024, 8:51:54 AM
+    Author     : dell
+*/
+.before {
+  margin: 20px; /* Khoảng cách với phần tử khác */
+  padding: 20px; /* Khoảng cách bên trong phần tử */
+  background-color: #f0f0f0; /* Màu nền */
+  border: 1px solid #ccc; /* Viền */
+  border-radius: 10px; /* Bo tròn góc */
+  text-align: center;
+}
+
+.before p {
+  font-size: 18px; /* Cỡ chữ */
+  color: #ff3838;
+  font-weight: bold
+}
+
+.before table {
+  width: 50%; /* Độ rộng 100% */
+  border-collapse: collapse; /* Gộp các đường viền */
+  margin-left: 270px
+}
+
+.before table th, .before table td {
+  padding: 10px; /* Khoảng cách bên trong ô */
+  border: 1px solid #3d3d3d; /* Viền của ô */
+   color: #3d3d3d;
+   text-align: center
+}
+
+.before table th {
+  background-color: #f2f2f2; /* Màu nền của ô tiêu đề */
+  font-weight: bold; /* Chữ in đậm */
+  width: 200px;
+  
+}
+
+.before table img {
+  max-width: 100px; /* Độ rộng tối đa của hình ảnh */
+}
+.after {
+  margin: 20px; /* Khoảng cách với phần tử khác */
+  padding: 20px; /* Khoảng cách bên trong phần tử */
+  background-color: #f9f9f9; /* Màu nền */
+  border: 1px solid #ccc; /* Viền */
+  border-radius: 10px; /* Bo tròn góc */
+}
+.after p,label{
+    color: black;
+}
+.after p:first-child {
+  font-size: 18px; /* Cỡ chữ */
+  font-weight: bold;
+  color: red;
+  margin-bottom: 10px; /* Khoảng cách giữa các đoạn văn */
+}
+
+.after .update {
+  margin-top: 20px; /* Khoảng cách giữa các phần tử */
+}
+
+.after input[type="file"], 
+.after input[type="number"], 
+.after input[type="text"], 
+.after input[type="submit"] {
+  display: block; /* Hiển thị mỗi phần tử trên một dòng */
+  margin-bottom: 10px; /* Khoảng cách giữa các phần tử */
+  padding: 5px; /* Khoảng cách bên trong phần tử */
+  border: 1px solid #ffb142; /* Viền */
+  border-radius: 10px; /* Bo tròn góc */
+  margin-left: 20px
+}
+
+.after input[type="submit"] {
+  background-color: #ff3838; /* Màu nền của nút */
+  color: white; /* Màu chữ của nút */
+  cursor: pointer; /* Đổi hình con trỏ khi di chuột qua nút */
+  padding: 3px;
+  border-radius: 10px;
+  border: solid 1px white;
+}
+
+.after input[type="submit"]:hover {
+  background-color: #f8a5c2; /* Màu nền của nút khi di chuột qua */
+  
+}
+
+
